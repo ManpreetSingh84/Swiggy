@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroller::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgb(255, 111, 0);
+}
+body:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 42, 0);
+}
+
+body::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+* {
+  font-family: gilroym;
+}
+@font-face {
+  font-family: gilroym;
+  src: url(./Components/Fonts/Gilroy-Medium.ttf);
+}
